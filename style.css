@@ -1,0 +1,327 @@
+body{
+  margin: 0;
+  background-image: url("wall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+.current{
+  background-image: url("nyc.jpg");
+}
+#container{
+  margin: 0px auto;
+}
+#header{
+  width: 100%;
+  margin: 0px;
+  margin-top: 20px;
+  position: fixed;
+}
+#header a#home{
+  float:left;
+  clear:both;
+  color: #ead8cc;
+  background-color: black;
+  padding: 10px 30px 10px 30px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+#header a{
+  float: right;
+  background-color: black;
+  text-decoration: none;
+  color: #ead8cc;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+}
+#header a:hover{
+  color: black;
+  background-color: #ead8cc;
+  text-decoration: underline;
+}
+#header a:active{
+  background-image: url("nyc.jpg");
+}
+#header a#home:hover{
+  color:black;
+  background-image: none;
+  background-color: #ead8cc;
+  text-decoration: underline;
+}
+#header a#dropdown:hover{
+}
+#cont{
+  height: 100vh;
+  width: 30%;
+  margin: 0px auto;
+}
+#cont img{
+  clear: both;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid white;
+}
+#name{
+  position: relative;
+  background-size: 100%;
+  background-position: top;
+  clear: both;
+  top: 50%;
+  text-align: center;
+}
+#name h1{
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+}
+#name a{
+  color: grey;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  text-decoration:overline;
+}
+#name a:hover{
+
+  background-size: cover;
+  color: white;
+  font-size: 14px;
+}
+.center{
+  margin: 0 auto;
+}
+#about{
+  height: 100vh;
+  background-color: black;
+}
+#aboutme{
+  background-size: cover;
+  background-size: 100%;
+  width: 80%;
+  clear:both;
+}
+#aboutme h2{
+  color: white;
+}
+#aboutme_para{
+  text-align: right;
+  margin-right: 30px;
+}
+#aboutme p{
+  color: white;
+}
+#aboutme img{
+  float: left;
+  width: 30%;
+  border: 2px solid white;
+  margin: 20px 20px 15px 0px;
+}
+#aboutme_sidebar{
+  float: left;
+  margin-top: 11%;
+  margin-right: 10px;
+  width: 120px;
+  text-align:right;
+}
+#aboutme_sidebar a{
+  padding: 5px 3px 5px 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 60%;
+}
+#aboutme_sidebar a:hover{
+  font-size: 70%;
+}
+#resume{
+  float: left;
+}
+#linkedin{
+  clear: both;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#youtube{
+  clear: both;
+  float: left;
+  margin-bottom: 10px;
+}
+#vimeo{
+  clear: both;
+  float: left;
+}
+#aboutme_para{
+  margin-top: 10%;
+  width: 60%;
+  text-align: left;
+  float: right;
+}
+#headshot img{
+  opacity: .5;
+  width: 100%;
+}
+#projects{
+  height: 100vh;
+}
+#projects_list{
+  clear: both;
+  padding-top: 8%;
+  width: 50%;
+  float: right;
+  margin-bottom: 200px;
+}
+#projects_list a{
+  clear: both;
+  float: right;
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  font-size: 90%;
+  width: 50%;
+  padding-top: 5%;
+  padding-left: 47%;
+  padding-right: 30px;
+}
+#projects_list a:hover{
+  background-image: url("mountain.jpg");
+  background-position: : bottom;
+  background-size: 100%;
+  color: black;
+}
+#projects_list h2{
+  padding-top: 1%;
+  width: 100%;
+
+  clear:both;
+  border-bottom: 1px solid white;
+  float: left;
+  color: #93b0ab;
+}
+#last_box{
+  margin-bottom: 100px;
+}
+.page{
+  padding-top: 30px;
+  clear: both;
+  background-color: black;
+  height: 100%;
+}
+#skills{
+  margin: 0 auto;
+  clear: both;
+  width: 60%;
+  margin-right: 30px;
+}
+#skills h3{
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+}
+.box p{
+  background-color:#83b0ab;
+  text-align: left;
+  margin-right: 10px;
+  font-size: 70%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+#css{
+  padding-right: 85%;
+  float: left;
+}
+#html{
+  clear: both;
+  padding-right: 90%;
+  float: left;
+}
+#java{
+  clear: both;
+  padding-right: 20%;
+  float: left;
+}
+#c{
+  clear: both;
+  padding-right: 30%;
+  float: left;
+}
+#pp{
+  clear: both;
+  padding-right: 85%;
+  float: left;
+  width: 120px;
+}
+#ps{
+  clear: both;
+  padding-right: 85%;
+  float: left;
+  width: 120px;
+}
+#ai{
+  clear: both;
+  padding-right: 35%;
+  float: left;
+  width: 120px;
+}
+#xd{
+  clear: both;
+  padding-right: 30%;
+  float: left;
+  width: 120px;
+}
+#wrapper{
+  clear: both;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+#contact{
+  height: 100vh;
+}
+#contact-form{
+  margin: 0 auto;
+  background: black;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+}
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  color: white;
+  width: 100%;
+}
+
+.msg textarea{
+  height: 200px;
+}
+
+.btn{
+  background: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
